@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Health Stories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./Images/logo.png" alt="LoGo"
+                style="border-radius: 50%; height: 100px; width: 110px; padding-left: 10px;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="profile.html" class="active">Profile</a>
+                        <a href="medical-history.html">Medical History Update</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <h1>Profile</h1>
+            <div class="profile-container">
+                <div class="profile-photo">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <button class="btn secondary-btn">Upload Photo</button>
+                </div>
+                <div class="profile-details">
+                    <div class="profile-info">
+                        <div class="info-group">
+                            <label>User Name:</label>
+                            <p id="profileUsername">John Doe</p>
+                        </div>
+                        <div class="info-group">
+                            <label>Email:</label>
+                            <p id="profileEmail">johndoe@example.com</p>
+                        </div>
+                        <div class="info-group">
+                            <label>Aadhaar No.:</label>
+                            <p id="profileAadhaar">XXXX-XXXX-XXXX</p>
+                        </div>
+                        <div class="info-group">
+                            <label>Blood Group:</label>
+                            <p id="profileBloodGroup">O+</p>
+                        </div>
+                    </div>
+                    <div class="profile-actions">
+                        <a href="medical-history.html" class="btn primary-btn">Update Medical History</a>
+                        <button class="btn secondary-btn" id="editProfileBtn">Edit Profile</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Health Stories</h3>
+                <p>A globally accessible medical service platform</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="signin.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: kasliwaljagruti@gmail.com</p>
+                <p>College: Deogiri College</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Health Stories. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
